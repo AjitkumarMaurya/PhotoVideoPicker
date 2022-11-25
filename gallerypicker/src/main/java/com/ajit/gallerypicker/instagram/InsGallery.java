@@ -62,7 +62,6 @@ public final class InsGallery {
                 .selectionData(selectionMedia)// 是否传入已选图片
                 .forResult(listener);
     }
-
     public static void openGallery(boolean isVideo, boolean isImage, boolean both, boolean openCamera, boolean recordVideo, int count, Activity activity, ImageEngine engine, CacheResourcesEngine cacheResourcesEngine, List<LocalMedia> selectionMedia) {
 
         SELECT_COUNT = count;
