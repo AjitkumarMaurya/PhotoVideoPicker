@@ -1,0 +1,2 @@
+include ':gallerypicker', ':app'
+include ':ucrop'
